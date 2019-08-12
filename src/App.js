@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 
-import SignIn from './pages/sign-in/SignIn';
+import SignInSide from './pages/sign-in-side/SignInSide';
 
 function App() {
   return (
     <div className="App">
-      <SignIn></SignIn>
+      <SignInSide></SignInSide>
     </div>
   );
 }
