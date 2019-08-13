@@ -2,13 +2,13 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 
 import App from "../App";
-import Album from "../pages/Album";
-import Blog from "../pages/Blog";
-import Checkout from "../pages/Checkout";
-import Dashboard from "../pages/Dashboard";
-import Pricing from "../pages/Pricing";
-import SignIn from "../pages/SignIn";
-import SignUp from "../pages/SignUp";
+import Album from "../pages/album/Album";
+import Blog from "../pages/blog/Blog";
+import Checkout from "../pages/checkout/Checkout";
+import Dashboard from "../pages/dashboard/Dashboard";
+import Pricing from "../pages/pricing/Pricing";
+import SignIn from "../pages/sign-in/SignIn";
+import SignUp from "../pages/sign-up/SignUp";
 
 export const Routes = () => {
   return (
@@ -19,8 +19,8 @@ export const Routes = () => {
       <Route path="/checkout" component={Checkout} />
       <Route path="/dashboard" component={Dashboard} />
       <Route path="/pricing" component={Pricing} />
-      <Route path="/signIn" component={SignIn} />
-      <Route path="/signUp" component={SignUp} />
+      <Route path="/sign-in" component={SignIn} />
+      <Route path="/sign-up" component={SignUp} />
     </Switch>
   );
 };

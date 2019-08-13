@@ -1,11 +1,9 @@
 import React from 'react';
-import './App.css';
-
 import SignInSide from './pages/sign-in-side/SignInSide';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <SignInSide></SignInSide>
     </div>
   );
